@@ -1,12 +1,18 @@
+@charset "uft-8";
+a{
+    text-decoration: none;
+    color: white;
+}
 .NavImage img{
-    width: 100px;
+    width: 70px;
 }
 .NavContainer{
-    background-color: brown;
+    background-color: black;
 }
 .MainNav{
     min-width: 768px;
     max-width: 1100px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -17,8 +23,7 @@
     padding: 15px;
 }
 .NavListItem{
-    color: black;
-}
-.NavListItem:hover{
-    background-color: black;
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
