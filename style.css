@@ -1,0 +1,29 @@
+@charset "uft-8";
+a{
+    text-decoration: none;
+    color: white;
+}
+.NavImage img{
+    width: 70px;
+}
+.NavContainer{
+    background-color: black;
+}
+.MainNav{
+    min-width: 768px;
+    max-width: 1100px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.NavListItem{
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
