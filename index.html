@@ -4,38 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hallstatt</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
-
 <body>
-      <Header>
-        <div class = "nav-image">
-            <img src="images/hallstatt_logo.png" alt="">
+    <header>
+        <section class="logo">
+            <img src="./images/hallstatt_logo.png" alt="">
+            <h1>Hallstatt</h1>
+        </section>
+        <section>
+            <nav>
+                <button class="mobile-menu-btn">☰</button>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./our-team.html">Our Team</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+            </nav> 
+        </section>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="./images/hero.jpg" alt="Hallstatt lake view with mountains" class="hero-image">
+            <div class="hero-text">
+                <h1>Welcome to Hallstatt</h1>
+                <p>Discover Austria's Most Beautiful Lake Town</p>
             </div>
-          <nav class = "nav-bar">
-            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
-            <ul class="nav-container">
-                <li class="nav-list-item">
-                    <a href="./index.html">Home</a>
-                </li>
-                <li class="nav-list-item">
-                    <a href="./about.html">About</a>
-                </li>
-                 <li class="nav-list-item">
-                    <a href="./ourTeam.html">Our Team</a>
-                </li>
-                <li class="nav-list-item">
-                     <a href="./login.html">Login</a>
-                </li>
-            </ul> 
-         </nav>  
-    </Header>
-     <main></main>
-    <footer></footer>
-    <script defer src="scripts/script.js"></script>
+        </section>
+
+        <section class="places">
+            <h2>Most Popular Attractions</h2>
+            <div class="places-grid">
+                <div class="place-card">
+                    <img src="./images/town-square.jpg" alt="Hallstatt town square">
+                    <h3>Town Square</h3>
+                    <p>Historic center with traditional architecture</p>
+                </div>
+                <div class="place-card">
+                    <img src="./images/natural-beauty.jpg" alt="Natural surroundings">
+                    <h3>Natural Beauty</h3>
+                    <p>Explore pristine alpine landscapes</p>
+                </div>
+                <div class="place-card">
+                    <img src="./images/lake-views.png" alt="Sunset view">
+                    <h3>Lake Views</h3>
+                    <p>Breathtaking mountain reflections</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="history">
+            <h2>History of our Village</h2>
+            <p>Beautiful Hallstatt is a picturesque village located in the Salzkammergut region of Austria. Renowned for its salt production, Hallstatt's history dates back to prehistoric times, making it a site of significant archaeological importance. The village is synonymous with the Hallstatt culture, a term that describes a distinctive cultural period in early Iron Age Europe, spanning roughly from 800 to 450 BC. This culture is often associated with Celtic and Proto-Celtic societies, highlighting Hallstatt's role as a center of trade and innovation during that era. The salt mines, some of the oldest in the world, contributed to the village’s prosperity and were crucial in shaping its identity. Today, Hallstatt's stunning alpine scenery and rich history attract visitors from around the globe, making it a UNESCO World Heritage site and a symbol of Austria’s cultural heritage. --<i>Chat GPT - Nov 02, 2024</i>--</p>
+        </section>
+
+        <section class="facts">
+            <h2>Facts and Figures</h2>
+            <section class="facts-grid">
+                <div class="fact-item">
+                    <span class="highlight-number">7000+</span>
+                    <p>Years of History</p>
+                </div>
+                <div class="fact-item">
+                    <span class="highlight-number">12</span>
+                    <p>Annual Festivals</p>
+                </div>
+                <div class="fact-item">
+                    <span class="highlight-number">3000+</span>
+                    <p>Historic Artifacts</p>
+                </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section1">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./our-team.html">Our Team</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-section2">
+                <h3>Contact</h3>
+                <p>Address: Hallstatt Village<br>
+                Salzbuerg, 4823, Austeria</p>
+                <p>Phone: +43 (234) 234 2345<br>
+                Email: info@hallstattt.example</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hallstatt - Future Tourism Project. Robert, Richard & Sam.</p>
+        </div>
+    </footer>
+    <script defer src="./scripts/script.js"></script>
 </body>
 </html>
