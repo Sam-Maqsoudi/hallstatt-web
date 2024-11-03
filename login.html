@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Hallstatt - Login</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
-    <Header>
-        <div class = "NavContainer">
-            <Nav class = "MainNav">
-                <div class = "NavImage">
-                    <img src="images/hallstatt_logo.png" alt="">
-                </div>
-                <div class = "NavListItem">
-                    <a href="./index.html">Home</a>
-                </div>
-                <div class = "NavListItem">
-                    <a href="./about.html">About</a>
-                </div>
-                <div class = "NavListItem">
-                    <a href="./ourTeam.html">Our Team</a>
-                </div>
-                <div class = "NavListItem">
-                    <a href="./login.html">Login</a>
-                </div>
-            </Nav>
+    <header>
+        <section class="logo">
+            <img src="./images/hallstatt_logo.png" alt="">
+            <h1>Hallstatt</h1>
+        </section>
+        <section>
+            <nav>
+                <button class="mobile-menu-btn">☰</button>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./our-team.html">Our Team</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+            </nav> 
+        </section>
+    </header>
+
+   <section>
+    <h1>
+        Login to your account
+    </h1>
+   </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section1">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./our-team.html">Our Team</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-section2">
+                <h3>Contact</h3>
+                <p>Address: Hallstatt Village<br>
+                Salzbuerg, 4823, Austeria</p>
+                <p>Phone: +43 (234) 234 2345<br>
+                Email: info@hallstattt.example</p>
+            </div>
         </div>
-    </Header>
-    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hallstatt - Future Tourism Project. Robert, Richard & Sam.</p>
+        </div>
+    </footer>
+    <script defer src="./scripts/script.js"></script>
 </body>
 </html>
