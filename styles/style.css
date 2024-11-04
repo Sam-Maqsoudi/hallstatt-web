@@ -30,6 +30,8 @@ header {
 .logo a h1 {
   color: white;
   font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .logo a {
@@ -654,6 +656,19 @@ footer {
   font-family: Montserrat, sans-serif;
   line-height: 1.6;
   color: #292929;
+}
+
+#bootstrap-overrides header h1 {
+  line-height: 1.6;
+}
+
+#bootstrap-overrides header nav ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#bootstrap-overrides header img {
+  vertical-align: inherit;
 }
 
 #bootstrap-overrides footer h3 {
