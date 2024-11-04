@@ -663,7 +663,8 @@ footer {
   line-height: 1.6;
 }
 
-#bootstrap-overrides header nav ul {
+#bootstrap-overrides header nav ul,
+#bootstrap-overrides footer ul {
   margin-bottom: 0;
   padding: 0;
 }
