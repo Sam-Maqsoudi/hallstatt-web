@@ -207,7 +207,8 @@ footer {
   border-radius: 8px;
 }
 
-.footer-grid p {
+.footer-grid p,
+.footer-bottom p {
   margin-bottom: 0;
 }
 
@@ -673,7 +674,11 @@ footer {
 
 #bootstrap-overrides footer h3 {
   color: white;
+  margin: 0;
+  font-size: calc(1rem + .3vw)
 }
+
+
 
 .news-hero,
 .news-form {
