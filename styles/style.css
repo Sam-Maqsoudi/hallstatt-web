@@ -675,7 +675,8 @@ footer {
 #bootstrap-overrides footer h3 {
   color: white;
   margin: 0;
-  font-size: calc(1rem + .3vw)
+  font-size: calc(1rem + .3vw);
+  font-weight: 700;
 }
 
 
