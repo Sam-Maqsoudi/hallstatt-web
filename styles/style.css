@@ -205,6 +205,10 @@ footer {
   border-radius: 8px;
 }
 
+.footer-grid p {
+  margin-bottom: 0;
+}
+
 .footer-quick-links ul {
   list-style: none;
 }
@@ -644,5 +648,39 @@ footer {
   }
 }
 
-/*----------------------- login page ------------------------*/
+/*----------------------- Newsletter page ------------------------*/
+#bootstrap-overrides h2,
+#bootstrap-overrides h3 {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.6;
+  color: #292929;
+}
+
+#bootstrap-overrides footer h3 {
+  color: white;
+}
+
+.news-hero,
+.news-form {
+  text-align: center;
+  padding: 3rem 1rem 0 1rem;
+  background-color: #f5f5f5;
+}
+
+.news .end {
+  padding-bottom: 3rem;
+}
+
+.news .highlight {
+  font-weight: bold;
+}
+
+.news .form-group {
+  margin-bottom: 1rem;
+}
+
+.news .form-group label {
+  margin-bottom: 0.5rem;
+}
+
 /*-----------------------------------------------------------*/
